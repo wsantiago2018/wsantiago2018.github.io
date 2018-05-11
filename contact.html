@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Family connection</title>
+    <!-- link to the external CSS file for font awesome icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+     <link rel="stylesheet" href="main.css">
+     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <style>
+     .main-header {
+            height: 350px;
+            background: url("imgs/happy-family.jpg") no-repeat center;
+            background-size: cover;
+            font-family: cursive;
+        }
+  
+    
+    body, html {
+        height: 100%;
+        font-family: "Inconsolata", sans-serif;
+      }
+      .bgimg {
+        background-position: center;
+        background-size: cover;
+        background-image: url("imgs/woods.jpg");
+        min-height: 75%;
+      }
+      .menu {
+        display: none;
+      }
+      #about {
+        padding-top: 95px;
+      }
+      #what {
+        padding-top: 110px;
+      }
+      #where {
+        padding-top: 110px;
+      }
+</style>
+
+<body>
+<div class="nav-header">
+        <img class="logo-img" src="imgs/family.png" alt="family connections logo">
+        <div class="nav-div">
+            <ul class="nav-bar">
+
+                <li><a class="nav-bar-link" href="index.html">Home</a></li>
+                <li><a class="nav-bar-link" href="aboutus.html">About Us</a></li>
+                <li><a class="nav-bar-link" href="services.html">Family Adventures
+                </a></li>
+                <li><a class="nav-bar-link" href="services2.html">Services
+                </a></li>
+                <li><a class="nav-bar-link" href="contact.html">Contacts
+                </a></li>
+                <li><a class="nav-bar-link" href="resources.html">Resources
+                </a></li>
+            </ul>
+        </div>
+        <div class="search-icon">
+            <i class="fa fa-search fa-2x" aria-hidden="true"></i>
+        </div>
+    </div>
+    <!-- Links (sit on top) -->
+    <!-- <div class="w3-top">
+        <div class="w3-row w3-padding w3-black">
+            <div class="w3-quarter">
+                
+                <li><a class="nav-bar-link" href="index.html">Home</a></li>
+                <li><a class="nav-bar-link" href="aboutus.html">About Us</a></li>
+                
+                <li><a class="nav-bar-link" href="services.html">Family Adventures
+                </a></li>
+                <li><a class="nav-bar-link" href="services2.html">Services
+                </a></li>
+                <li><a class="nav-bar-link" href="Contact.html">Contacts
+                </a></li>
+            </ul>
+            </div>
+            <div class="w3-quarter">
+                <a href="#where" class="w3-button w3-block w3-black">WHERE</a>
+            </div>
+        </div>
+    </div>
+ -->
+    <!-- Header with image -->
+    <header class="bgimg w3-display-container w3-grayscale-min" id="home" >
+        <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+            <span class="w3-tag">Open from 7am to 11pm</span>
+        </div>
+        <div class="w3-display-bottommiddle w3-center">
+            <span class="w3-text-blue w3-jumbo">Lets Stay<br>In Touch</span>
+        </div>
+        <div class="w3-display-bottomright w3-center w3-padding-large w3-hide-small">
+            <span class="w3-text-white">88 Commercial, Manchester, NH</span>
+        </div>
+    </header>
+
+    <!-- Add a background color and large text to the whole page -->
+    <div class="w3-sand w3-grayscale w3-large">
+
+        <!-- About Container -->
+        <div class="w3-container" id="about">
+            <div class="w3-content" style="max-width:700px">
+                <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-blue w3-wide">we Love to hear from our guest</span></h5>
+                <p>Our concierge are looking foward to helping you with your Family Vacation planning.
+                We have many ways for you to contact us.
+            via Phone, Email, or via Appointment</p>
+                
+                <!-- <div class="w3-panel w3-leftbar w3-light-grey">
+                    <p><i>"Use products from nature for what it's worth - but never too early, nor too late." Fresh is the new sweet.</i></p>
+                    <p>Chef, Coffeeist and Owner: Brown Jin</p>
+                </div>
+                <img src="imgs/coffeeshop.jpg" alt="" style="width:100%;max-width:1000px" class="w3-margin-top">
+            </div> -->
+        </div>
+
+        <!-- Menu Container -->
+        <div class="w3-container" id="what">
+            <div class="w3-content" style="max-width:700px">
+
+                <!-- <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">Ways to Connect </span></h5>
+ -->
+                <!-- <div class="w3-row w3-center w3-card-2 w3-padding">
+                    <a href="javascript:void(0)" onclick="openMenu(event, 'Eat');" id="myLink">
+                        <div class="w3-col w3-third tablink">Email</div>
+                    </a>
+                    <a href="javascript:void(0)" onclick="openMenu(event, 'Drinks');">
+                        <div class="w3-col w3-third tablink">Phone</div>
+                    </a>
+                    <a href="javascript:void(0)" onclick="openMenu(event, 'Others');">
+                        <div class="w3-col w3-third tablink">Appointments</div>
+                    </a>
+                </div>
+
+                <div id="Eat" class="w3-container menu w3-padding-48 w3-card-2">
+                    <h5>Camping Adventures</h5>
+                    <p class="w3-text-grey"><h3><a href="https://www.abcamping.com/jellystonenh/connect_us.php"> Camping Adventures</h3></p><br>
+
+                    <h5>Theme park Adventures</h5>
+                    <p class="w3-text-grey"><h3><a href="https://www.tripsavvy.com/new-hampshire-theme-and-amusement-parks-4125193"> Theme park Adventures</h3></p><br>
+
+                    <h5>Theme park Adventures</h5>
+                    <p class="w3-text-grey"><h3><a href="https://www.tripsavvy.com/new-hampshire-theme-and-amusement-parks-4125193"> Theme park Adventures</h3></p><br>
+
+                    <h5>Honey Almond Granola with Fruits</h5>
+                    <p class="w3-text-grey">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p><br>
+
+                    <h5>Belgian Waffle</h5>
+                    <p class="w3-text-grey">Vanilla flavored batter with malted flour 7.50</p><br>
+
+                    <h5>Scrambled eggs</h5>
+                    <p class="w3-text-grey">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p><br>
+
+                    <h5>Blueberry Pancakes</h5>
+                    <p class="w3-text-grey">With syrup, butter and lots of berries 8.50</p>
+                </div>
+
+                <div id="Drinks" class="w3-container menu w3-padding-48 w3-card-2">
+                    <h5>Coffee</h5>
+                    <p class="w3-text-grey">Regular coffee 2.50</p><br>
+
+                    <h5>Chocolato</h5>
+                    <p class="w3-text-grey">Chocolate espresso with milk 4.50</p><br>
+
+                    <h5>Corretto</h5>
+                    <p class="w3-text-grey">Whiskey and coffee 5.00</p><br>
+
+                    <h5>Iced tea</h5>
+                    <p class="w3-text-grey">Hot tea, except not hot 3.00</p><br>
+
+                    <h5>Soda</h5>
+                    <p class="w3-text-grey">Coke, Sprite, Fanta, etc. 2.50</p>
+                </div>
+
+                <div id="Others" class="w3-container menu w3-padding-48 w3-card-2">
+                    <h5>Dim sum</h5>
+                    <p class="w3-text-grey"> 2.50 a piece</p><br>
+
+                    <h5>Sushi</h5>
+                    <p class="w3-text-grey">Assorted 5.50</p><br>
+
+                    <h5>Steamed Bread</h5>
+                    <p class="w3-text-grey">Meat, Vegi, Sweet bean, etc. 2.50</p>
+                </div>
+
+
+                <img src="imgs/coffeehouse2.jpg" alt="" style="width:100%;max-width:1000px;margin-top:32px;"> -->
+                
+            </div>
+        </div>
+
+        <!-- Contact/Area Container -->
+        <div class="w3-container" id="where" style="padding-bottom:15px;">
+            <div class="w3-content" style="max-width:700px">
+                <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">WHERE TO FIND US</span></h5>
+                <p>Find us at UNH Manchester campus</p>
+                <p>Opening hours: everyday from 7am to 11pm.</p>
+                <p>Address: 88 Commercial, Manchester, NH</p>
+                <div id="googleMap" class="w3-sepia" style="width:100%;height:500px;"></div>
+            </div>
+        </div>
+
+        <!-- End page content -->
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-center w3-blue w3-padding-48 w3-large">
+        <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+    </footer>
+
+    <!-- Add Google Maps -->
+    <script>
+        function myMap(){
+            myCenter=new google.maps.LatLng(42.987860, -71.468434);
+            var mapOptions= {
+                center:myCenter,
+                zoom:15, scrollwheel: false, draggable: false,
+                mapTypeId:google.maps.MapTypeId.ROADMAP
+            };
+            var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
+
+            var marker = new google.maps.Marker({
+                position: myCenter,
+            });
+            marker.setMap(map);
+        }
+
+        // Tabbed Menu
+        function openMenu(evt, menuName) {
+            var i, x, tablinks;
+            x = document.getElementsByClassName("menu");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablink");
+            for (i = 0; i < x.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+            }
+            document.getElementById(menuName).style.display = "block";
+            evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+        }
+        document.getElementById("myLink").click();
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDtlDNWRSVCemkzgcce3oQAIa4k27Za940&callback=myMap">
+    </script>
+    <!--To use this code on your website, get a free API key from Google. Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp -->
+</body>
+
+</html>
